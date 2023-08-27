@@ -117,3 +117,8 @@ body {
   list-style-type: none;
   padding-left: 20px;
 }
+
+.button-div {
+  width: 100vw;
+  height: 100vh;
+}
