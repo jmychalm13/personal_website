@@ -11,10 +11,18 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-image: url(/ffflux.svg);
+  background-size: cover;
+  overflow: hidden;
 }
 
 .text {
   text-transform: uppercase;
+}
+
+.main {
+  width: 65%;
+  height: auto;
 }
 
 .logo {
@@ -47,7 +55,7 @@ body {
   transform: translateX(0);
 }
 
-.nav-black {
+.nav-dark {
   background-color: rgb(41,41,72);
   width: 60%;
   max-width: 480px;
@@ -55,21 +63,21 @@ body {
   transition-delay: .4s;
 }
 
-.nav-black.visible {
+.nav-dark.visible {
   transition-delay: 0s; 
 }
 
-.nav-red {
+.nav-light {
   background-color: rgb(104,192,192);
   width: 95%;
   transition-delay: .2s;
 }
 
-.nav-red.visible {
+.nav-light.visible {
   transition-delay: .2s;
 }
 
-.nav-white {
+.nav-lighter {
   background-color: rgb(201,225,217);
   width: 95%;
   padding: 40px;
@@ -77,7 +85,7 @@ body {
   transition-delay: 0s;
 }
 
-.nav-white.visible {
+.nav-lighter.visible {
   transition-delay: .4s;
 }
 
